@@ -1,0 +1,19 @@
+/*Main Style Style*/
+/*Main Style End*/
+
+/*Navbar Section Start*/
+.navbar-section{
+	background-color: #000;
+}
+.navbar-item ul li{
+	margin-left: 22px;
+}
+.navbar-item ul li a{
+	color: #FDCE18 !important;
+	font-size: 20px;
+	font-weight: 600;
+}
+.navbar{
+	padding: 0em 1em;
+}
+/*Navbar Section End*/
