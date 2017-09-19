@@ -163,14 +163,7 @@
 /*Upcoming Events Style End*/
 
 /*Parralex Section Start*/
-body, html {
-  height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
-}
-
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.parallaxbg-1, .parallaxbg-2, .bgimg-3 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -179,28 +172,39 @@ body, html {
   background-size: cover;
 
 }
-.bgimg-1 {
-  background-image: url("../img/img-parallex.jpg");
-  min-height: 100%;
+.parallaxbg-1 {
+  background-image: url("../img/videoframe.jpg");
+  min-height: 700px;
 }
 
-.bgimg-2 {
+.parallaxbg-2 {
   background-image: url("../img/img-parallex1.jpg");
-  min-height: 400px;
+  min-height: 500px;
 }
 
 .bgimg-3 {
   background-image: url("../img/img-parallex.jpg");
-  min-height: 400px;
+  min-height: 500px;
 }
 
-.caption {
-  position: absolute;
+.parallaxbg-1caption{
+	position: absolute;
   left: 0;
   top: 50%;
   width: 100%;
-  text-align: center;
   color: #000;
+}
+
+.parallaxbg-2caption{
+	position: relative;
+  left: 0;
+  width: 70%;
+	top: -50px!important;
+  margin: 0 auto;
+  color: #000;
+  min-height: 600px;
+  background-color: #ff0000;
+	z-index: 1000!important;
 }
 
 .caption span.border {
@@ -219,5 +223,58 @@ h3 {
 }
 
 /*Parralex Section End*/
+
+/*Sponsor Div Start*/
+.sponsorItem{
+	padding: 60px 80px;
+	text-align: center;
+	background-color: #98EDFF;
+	color: #fff;
+	z-index: -1000!important;
+	position: relative;
+}
+.sponsorItemStyle ul li{
+	list-style-type: none;
+	list-style: inline;
+	float: left;
+}
+/*Sponsor Div End*/
+
+/*Footer Section Start*/
+.footer-section{
+	position: relative;
+	margin-top: -60px;
+	background-color: #333333;
+	color: #fff;
+	z-index: 10000;
+}
+.main-footer{
+	padding: 70px 0px;
+}
+.logoIcon{
+	padding-left: 0px!important;
+}
+.contactPortion h4{
+	margin-left: 20px;
+}
+.socialIcon ul{
+	margin-left: -20px;
+}
+.socialIcon ul li{
+	list-style-type: none!important;
+	list-style: initial;
+	float: left;
+	width: 40px;
+	height: 40px;
+	background-color: #ff0;
+	margin-left: 5px;
+}
+
+.sub-footer{
+	padding: 30px 0px;
+	background-color: #1E1E1E;
+	color: #fff;
+}
+/*Footer Section End*/
 
 
