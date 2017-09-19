@@ -26,8 +26,8 @@
 	color: #FDCE18 !important;
 	font-size: 20px;
 	font-weight: 600;
-    padding: 9px 20px!important;
-    line-height: 2.2em!important;
+  padding: 9px 20px!important;
+  line-height: 2.2em!important;
 }
 .navbar-item ul li:hover{
     background-color: #000fff;
@@ -228,15 +228,14 @@ h3 {
 .sponsorItem{
 	padding: 60px 80px;
 	text-align: center;
-	background-color: #98EDFF;
+	background-color: #8ccefa;
 	color: #fff;
 	z-index: -1000!important;
 	position: relative;
 }
-.sponsorItemStyle ul li{
-	list-style-type: none;
-	list-style: inline;
-	float: left;
+
+.colStyle{
+  padding-left: 0px!important;
 }
 /*Sponsor Div End*/
 
@@ -258,16 +257,50 @@ h3 {
 	margin-left: 20px;
 }
 .socialIcon ul{
-	margin-left: -20px;
+	margin-left: -25px;
 }
 .socialIcon ul li{
 	list-style-type: none!important;
 	list-style: initial;
 	float: left;
-	width: 40px;
-	height: 40px;
-	background-color: #ff0;
+	width: 50px;
+	height: 50px;
+	background-color:transparent;
 	margin-left: 5px;
+  border-radius: 50%;
+  border: 2px solid #555;
+  text-align: center!important;
+  padding-top: 10px;
+  color: #EAEAEA;
+}
+
+.socialIcon ul li:hover{
+  background-color:#8ccefa;
+  cursor: pointer;
+}
+
+.newslettersSection{
+  margin-left: 20px;
+}
+.input-group-addon,.newslettersForm{
+  border-radius: 0px!important;
+  line-height: 0em!important;
+  padding: 10px;
+}
+
+.input-group-addon{
+  border: 1px solid #555!important;
+  background: #545454;
+  color: #fff;
+}
+
+.newslettersForm{
+  border: 1px solid #555!important;
+  background: transparent;
+  color: #fff!important;
+}
+.newslettersForm:focus{
+  background: transparent;
 }
 
 .sub-footer{
