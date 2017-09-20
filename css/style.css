@@ -36,8 +36,6 @@
 
 /* Dropdown Button */
 .dropdown-content {
-    min-width: 260px !important;
-    max-width: 280px!important;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -146,24 +144,14 @@
 	background-image: url("../img/upcoming-bg.jpg");
 	background-size: cover;
 	min-height: 700px;
+	padding: 100px 0px;
+	color: #222;
 }
-.upcoming-events-left{
-}
-.upcoming-events-right{
-	background-color: #ff0000!important;
-	height: 700px;
-}
-.nopadding{
-	padding-left: 0px;
-	padding-right: 0px;
-}
-.uprow{
-    background-color: #00f;
-}
+
 /*Upcoming Events Style End*/
 
 /*Parralex Section Start*/
-.parallaxbg-1, .parallaxbg-2, .bgimg-3 {
+.parallaxbg-1, .parallaxbg-2 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -177,20 +165,25 @@
   min-height: 700px;
 }
 
+.parallaxbg-1Container{
+	width: 40%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #000;
+	opacity: 0.8;
+	border-radius: 10px;
+	color: #fff;
+}
 .parallaxbg-2 {
   background-image: url("../img/img-parallex1.jpg");
   min-height: 500px;
 }
 
-.bgimg-3 {
-  background-image: url("../img/img-parallex.jpg");
-  min-height: 500px;
-}
 
 .parallaxbg-1caption{
 	position: absolute;
   left: 0;
-  top: 50%;
+  top: 40%;
   width: 100%;
   color: #000;
 }
@@ -199,29 +192,37 @@
 	position: relative;
   left: 0;
   width: 70%;
-	top: -50px!important;
+	top: -60px!important;
   margin: 0 auto;
   color: #000;
   min-height: 600px;
-  background-color: #ff0000;
+  background-color: #FBFDFE;
 	z-index: 1000!important;
+	opacity: 0.8;
+	padding:100px 10px;
+}
+.parallaxbg-2Container{
+	width: 80%;
+	margin: 0 auto!important;
 }
 
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+.parallaxbg-2ContainerLeft,.parallaxbg-2ContainerMiddle,.parallaxbg-2ContainerRight{
+	padding: 0px;
 }
-
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
+.parallaxbg-2ContainerLeftInner,.parallaxbg-2ContainerMiddleInner,.parallaxbg-2ContainerRightInner{
+	width: 163px;
+	height: 163px;
+	text-align: center;
+	background-color: #ff0;
+	border-radius: 90px;
+	margin: 0 auto;
+	margin-top: 50px!important;
+	border: 2px solid #ff0000;
 }
-
+.font-awesomeIcon{
+	font-size: 55px;
+	padding-top: 50px;
+}
 /*Parralex Section End*/
 
 /*Sponsor Div Start*/
